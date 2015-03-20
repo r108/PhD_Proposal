@@ -1,0 +1,261 @@
+Many different mechanisms for reprogramming sensor nodes have been developed ranging from full image replacement to virtual machines.
+
+Dealing with heterogeneity raises severe obstacles to interoperability.
+
+VMs and other systems software facilitates the mechanisms to programmatically control node operations at runtime. It enables 
+standardizing the programming interfaces and synchronizing connectivity between the heterogeneous hardware platforms
+
+The VMs main goals are to provide an abstraction layer from the possibly heterogeneous hardware platform of different sensor nodes and to improve robustness by running applications in a safe execution environment. 
+
+It is the individual nodes' duty to perform the different tasks such as sensing, acting, signalling and processing. However, the real strength of WSNs lies in the ability of the motes to collaborate and aggregate data.  
+
+To meet future requirements new WSN designs need to provide mechanisms to dynamically allocate resources and serve diverse applications together with multiple users.
+
+WSN OS bridges the gap between hardware simplicity and application complexity, and it plays a central role in building scalable distributed applications that are efficient and reliable
+
+to optimize properties such as network capacity and QoS. Since processing and transmission
+power in nodes are the essential consumers of energy, it is
+also necessary to optimize the number of hops traversed by
+packets.
+
+The advantages of virtualization over native solutions includes faster development cycle, portability, security, and reuse of design tools and libraries.
+
+ The Virtual Sensor can exist
+ either in-field as a thin layer of virtualization software that is
+ executed on physical sensors or it can be a mathematical
+ model for aggregating information residing in a sensor
+ management platform similar to [23].
+
+Virtualization, in this case, takes on a slightly different meaning. When we think of virtualized, or overlay networks, we think of an alternate, logical instantiation of the network. Virtualized networks are one key application of SDN, which is has traditionally been a separation of the control and data planes.
+
+A trend and idea to move towards the pervasive Cloud.
+A limit of current Cloud implementations is the absence of mechanisms to effectively manage inputs from the physical word.
+
+
+
+In particular we show how reusing existing assets, using middleware, creating abstract interfaces and decoupling the components lead to a more scalable and flexible software system. The benefits of the implemented solution regarding the scalability and flexibility
+of our robotic systems are exposed in the fourth section
+
+The third and final conceptual group comprises those middleware architectures that focus on modularity and service orientation.
+Modularity allows for more flexibility in the software development process, and the definition of services makes it possible to reduce the software features deployed to those that are actually required by the application, thus saving resources on the sensor nodes. The two concepts complement each other, as services are commonly implemented in the form of interchangeable modules. 
+
+
+
+
+As I see it, a well-defined interface is one where the actions that will be performed by the service provider are clear and unambiguous.
+
+
+\subsection{Virtualization (VMs)} 
+
+VM supports dynamic application loading for TinyOS based Wireless Sensor Networks.Support of code propagation, app-level communication and result aggregation back to main node. 
+
+VMs
+
+\begin{itemize}
+	\item Scylla
+	\item Mate
+	\item Bombilla
+	\item Melete - Supporting concurrent applications in wireless sensor networks
+	\item Jelatine
+	\item ASVM (Extended Mate)
+	\item SensorWare - Design and implementation of a framework for efficient and programmable sensor networks
+	\item DVM
+	\item DAViM
+	\item QM
+	\item VMSTAR
+	\item TinyReef
+	\item SwissQM
+	\item
+	\item Insense VM
+	\item Darjeeling
+	\item TakaTuka
+	\item Squawk
+	\item Sentilla ??
+\end{itemize}
+
+Middleware
+
+\begin{itemize}
+	\item Impala
+	\item Agilla -  a mobile agent middleware for self-adaptive wireless sensor networks
+	\item Servilla - a flexible service 	provisioning middleware for heterogeneous sensor networks
+\end{itemize}
+
+
+DB
+
+\begin{itemize}
+	\item COUGAR: the network is the database
+	\item TinyDB
+	
+	
+\end{itemize}
+
+
+
+WSN OS
+
+\begin{itemize}
+	\item Contiki
+	\item TinyOS
+	\item Nano-RK
+	\item LiteOS
+	\item MANTIS
+	\item SOS
+	\item NucleOS
+	\item InceOS
+	\item SenSmart
+	\item Lorien
+\end{itemize}
+
+Virtual Sensor
+
+\begin{itemize}
+	\item SenQ
+\end{itemize}
+
+Service Virtualisation
+
+\begin{itemize}
+	\item SenaaS
+	\item SAaaS
+\end{itemize}
+
+Virtual Networks
+
+\begin{itemize}
+	\item VITRO
+\end{itemize}
+
+\begin{itemize}
+	\item code mobility
+	\item virtualised processor architecture
+	\item power management
+	\item inter device communication
+	\item error recovery
+	\item cost of on the fly compilation
+	\item memory footprint (code and data)
+	\item execution model
+	\item availability
+	\item remarkable characteristics
+	\item application execution method
+	\item application or domain specific
+	\item 
+\end{itemize}	
+	
+\subsection{WSN CONSTRAINTS} 
+
+\begin{itemize}
+\item difficult to access
+\item need for physical access to reprogram 
+\item limited control and manageability
+\item fundamentally unpredictable 
+
+\item prone to interference from other more powerful radios
+\item physical obstructions can limit the communication range
+\item unreliable data distribution / communication
+
+\item incompatibility due to heterogeneity of devices
+\item lack of simple high-level programming APIs
+
+\item limited CPU, RAM, STORAGE, SIGNAL RANGE
+\item limited power source
+\end{itemize}
+
+\subsection{WSN REQUIREMENTS}
+
+Pablo:
+• dynamic data flows
+• concurrent data flows
+• policy-based flows
+• demand-based flows
+• scalability
+• QoS support
+• consistency (responsiveness to network changes)
+• adaptability (fault tolerance, recoverability) -> this largely same as above
+• reliable control paths
+• small overhead compared to distributed solutions
+• constraint management
+• mobility support
+
+Roland:
+• concurrency
+• abstraction of heterogeneity
+• high level programming abstractions
+• application isolation
+• local dynamic adaptability to environment
+• distributed adaptability
+• re-programmability
+• application resource management (reservation and guarantees)
+• constraint management
+• application/vm/service mobility and migration
+
+
+\begin{itemize}
+\item efficient energy conservation
+\item power harvesting capability
+\item low-cost
+\item small size
+\item reasonable communication range
+
+\item sufficient storage capacity
+\item sufficient RAM capacity
+\item CPU performance
+\item various sensing and acting capability
+
+
+\item flexible deploy-ability (random vs organized)
+\item resistance against harsh environmental conditions
+\item reliability
+\item predictability
+\item pro-activeness
+\item responsiveness
+\item self-adaptability
+\item scalability
+\item QoS
+\item security
+\item fault tolerance
+\item reprogram-ability 
+\item self-configuration
+\item unattended operation
+\item cooperative network behaviour 
+\end{itemize}
+
+
+Finally
+,
+w
+e
+m
+ust
+ac
+kno
+wledge
+the
+prev
+alence
+of
+message
+loss
+due
+to
+wireless
+in
+terference
+or
+noise
+
+ standard overlays falter
+ as a deployment path for radical architectural innovations in
+ at least two ways. First, overlays have largely been in use as
+ means to deploy narrow fixes to specific problems without any
+ holistic view. Second, most overlays have been designed in the
+ application layer on top of IP; hence, they cannot go beyond
+ the inherent limitations of the existing Internet
+
+The neighbourhood is still not a programming primitive in the sensor network community
+
+symmetric vs asymmetric multiprocessing
+pipelined SIMD (distributed memory, shared memory)
+HAL is provided by the OS
+OS uses device drivers to communicate with HW

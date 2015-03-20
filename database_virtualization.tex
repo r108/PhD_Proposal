@@ -1,0 +1,11 @@
+\subsection{Query Processing Approach}
+Research efforts have been made to abstract the WSN into a distributed Database (DB) which uses declarative query languages for data acquisition. Examples of this model include COUGAR \cite{yao2002cougar} and TinyDB \cite{madden2005tinydb}.
+
+COUGAR was one of the first approaches to abstract away much of the
+complexity of WSNs by viewing it as tables based on the database paradigm . COUGAR threats the entire WSN as a virtual database system and implements management operations using SQL like queries. In-network query processing is optimized in order to reduce resource usage and extend battery lifetime.  
+
+TinyDB was implemented on top of TinyOS, yet it does not require the developer to write code using nesC (the native programming language for TinyOS), instead it provides an interface to extract sensor data using simple DB queries. Furthermore, it supports multi-hop communication and dynamic node reconfiguration at runtime. TinyDB also introduces an advanced energy saving scheme by using semantic routing trees which help reducing the amount of communication involved with the queries.
+
+SwissQM \cite{mueller2007swissqm} takes data acquisition to another level by implementing a VM that runs optimized byte code instead of queries to process the telemetry data that was extracted from the WSN. Furthermore, SwissQM builds upon the data aggregation model that was first introduced in TinyDB and offers a user extensible instruction set. The work highlights and addresses the following two major limitations of existing systems: \emph{1) lack of data independence, and 2) poor integration with the higher layers of the data processing chain.}
+
+DB approaches can simplify programming and reduce power consumption but in the same time they lack real-time application and multi platform support. Moreover, researchers have identified \cite{hadim2006middleware,yick2008wireless} that in many cases they do not provide sufficient detection accuracy of spatial and temporal relationships between events as required by hard real-time applications.

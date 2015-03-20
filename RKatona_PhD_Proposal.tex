@@ -1,0 +1,261 @@
+% $Id: AllegProposal.tex,v 1.8 2000/07/05 21:02:12 culver Exp $
+% AllegProposal.tex
+% by A. Thall
+% 13. Feb 2003
+%
+% Small edits and a few additions made by R. Roos
+% 21 Jan 2007
+% Most particularly, the "box" around the thesis statement has been removed,
+% section titles have been modified. The section named "Prior work II" has
+% been commented out. The \topmargin has been changed to -.5in and the
+% change to \parindent has been commented out.
+% The filename "nausicaa.eps" has been changed to simply "nausicaa" so that
+% pdflatex can be used on the file (and a file named "nausicaa.pdf" has
+% been created using the "epstopdf" command).
+% Several subsections have been added to illustrate subsection usage.
+% The word "comp" has been replaced by "project" or "thesis" throughout.
+% Other small changes have been made.
+%
+% This document provides a sample Senior Project Proposal template for use
+% by students in Allegheny's CS and Applied Computing programs.
+
+%\NeedsTeXFormat{LaTeX2e}
+\documentclass[11pt]{article}
+
+%The following is used by WinEdt to set up cross-referencing to the BibTeX files
+%It is NOT commented out---the comment lets it be simply ignored by non-WinEdt LaTeX compilers
+
+%GATHER{mybibtexDB.bib}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{fancybox}
+\usepackage{listings}
+%\usepackage{algo}
+\usepackage{url}
+\usepackage{cleveref}
+\usepackage[numbers,sort&compress]{natbib}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+%\setlength{\headheight}{55.2pt}
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6in}
+\setlength{\oddsidemargin}{.25in}
+\setlength{\topmargin}{-.5in}  % changed from -.25 by RSR on 1/21/07
+%\parindent .5in    % commented out by RSR 1/21/07
+\fancyheadoffset{.2in}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{}
+\chead{}
+\rhead{}
+\cfoot{\thepage}
+
+%\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+	colorlinks,
+	linkcolor={gray!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+
+%put words in the hyphenation statement if you want to enforce
+%how LaTeX should break them (or not) at the end of a line.
+%\hyphenation{repre-sen-tations problems exact linear}
+\hyphenation{itself}
+
+%%%%%
+%% Commented out -- RSR, 1/21/07
+%%%%%
+% The following provides a box to surround the thesis statement
+%\newenvironment{Thesis}%
+%{\begin{Sbox}\begin{minipage}{.95\linewidth}}%
+%{\end{minipage}\end{Sbox}\begin{center}\fbox{\TheSbox}\end{center}}
+
+\title{PhD Research Proposal}
+\author{by \\ \\ Roland Katona \\ \\ Supervisors:  Dr. Donna O'Shea and  Dr. Dirk Pesch}
+
+\begin{document}
+
+% You can specify a language and other options for
+% the code-formatting "listings" package
+%\lstset{language=C++,basicstyle=\small,
+ %       stringstyle=\ttfamily,showstringspaces=false}
+
+\singlespace
+\maketitle
+
+
+
+\begin{abstract}   
+%\normalsize
+The explosion of technological innovations in the past decades has irreversibly changed
+our way of life. Cities are evolving and becoming smarter and more interactive as new
+technologies are added to the existing infrastructure. Small embedded devices with sensing and acting capabilities are contributing to the creation of an additional sensing layer to our
+habitats with the aim of making them easier and safer to live and work in. Wireless Sensor Networks (WSNs) play a pivotal role in this by providing valuable information to simplify the management and improve the utilization of scarce urban resources.
+
+WSNs, since their inception, were typically designed and
+deployed as a vertically integrated homogeneous sensing infrastructure developed with a specific application or user in mind. Such systems often suffer from issues such as redundant deployment of similar sensing capabilities within the same sensing boundary resulting in issues such as: low return of investment and resource underutilization. 
+Nonetheless, future WSNs in Smart Cities should be designed in a way where multiple users can exploit the same infrastructure. Heterogeneity of devices/platforms, standards and technologies, however, encumbers the extensive realization of shared WSNs. Therefore, to accomplish such a shared infrastructure, the ownership and management of the sensor network needs to be separated.  Additionally, traditional WSN development methods impose numerous fundamental problems. These include difficulties in application programming for the highly resource constrained and heterogeneous nodes/platforms as well as limitations on (re)configure-ability of the nodes/applications and the lack of interoperability amongst the different WSN networks/platforms. 
+
+
+
+To address these issues and limitations, this PhD research proposes a framework that combines multiple virtualisation methods at the different layers (hardware, system, network, application/service) of the WSN infrastructure. Virtualisation of WSNs creates opportunities where resources and services from several WSNs can be efficiently used by multiple applications and users, bringing with it a host of new challenges and research opportunities. Applying virtualisation to the WSN is expected to simplify network management, accelerate application development and enhance security by abstracting and isolating the underlying resources. Virtualisation can also enable concurrency and facilitate interoperability amongst heterogeneous nodes/platforms by providing a generic execution environment. 
+Therefore the ultimate goal of the proposed framework is to create a dynamic, adaptable and scalable virtualised WSN infrastructure that meets the business objectives of network providers by enabling them to quickly provision and deliver value-added services to various customers. 
+
+\begin{comment}
+
+Moreover, managing such an environment requires a policy based management approach to drive  The scope of the PhD proposal outlined within this document aims to investigate how WSNs can benefit from combining various virtualisation techniques. 
+
+Currently, wireless sensor networks (WSN) tend to be owned by a single organization
+and programmed for a specific function, application or service. Besides, the installation
+and deployment of each WSN is managed independently by their owner. This traditional
+service model is often referred to as a ’walled garden’. Within this ’walled garden’ prob-
+lems such as resource and network under-utilization arising from redundant deployment
+of similar sensor networks at the same location can emerge. This can lead to a poor
+return of investment from a sensor network. Furthermore, such set-up poses additional
+limitations on the (re)programmability of heterogeneous nodes and lacks interoperability
+of different networks. Hence, the inefficiency of the traditional approach to WSN design,
+which advocates a single application that serves a single user, is inherent.
+Opening of the aforementioned ’walled garden’ however is now possible with the ad-
+vancements in Cloud computing and virtualization technology. By means of virtualiza-
+tion, the traditional benefits of separating the network and its ownership would also be
+applied such as: economies of scale; reduced cost of ownership and decreased cost to
+customers. Moreover, the abstraction of heterogeneous hardware elements allows and
+facilitates the (re)programmability of wireless sensor networks, and enables the sharing
+and aggregation of networking and node resources via standard interfaces. Generic ab-
+straction layers that hide the discrepancy of the underlying hardware are expected to
+foster the basis for simplifying development of new as well as existing WSN deployments.
+Hence, such a model has the potential to support various services and applications which
+can exploit arbitrary resources that may be owned by different authorities. Additionally,
+the integration of several sensor networks into a federated architecture would enable in-
+creased networking capabilities and higher degree of interoperability of the different WSN
+deployments that in turn would provide greater choice of service offerings and improved
+cost efficiency.
+With the adoption of SDN and Virtualization paradigms into an urban WSN environ-
+ment, the described research attempts to address the above outlined limitations of current
+WSN implementations and to overcome the design barriers of traditional WSN deploy-
+ments. The realization of these paradigms in wireless sensor networks, however, is known
+to be a rather challenging task. It is therefore the purpose of this PhD work to investigate
+the viability of enabling software defined virtualized wireless sensor networks, on top of
+existing physical WSNs, which can accommodate multiple concurrent applications and
+users, beyond the context, for which the network was originally designed. The project
+aims to architect a network model and developing the corresponding implementation
+framework that will enable a flexible and adaptable WSN infrastructure, consisting of
+heterogeneous nodes, that is easy to manage and maintain through well-defined business
+policies.
+content...
+\end{comment}
+
+\end{abstract}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\doublespace
+\pagebreak
+\tableofcontents
+
+% This sets section-numbering to only include Section and Subsection numbers
+
+
+% The original template's content was copied here
+%\include{template_content}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\pagebreak
+\section{Research context and contribution to the research field}
+
+This PhD research is being carried out as part of SFI project SURF: Service-centric networking for urban-scale feedback systems which aims to exploit information
+and communications technologies to improve the quality of life of city dwellers around
+the world. Urban environments have limited resources such as road networks, energy and
+water. These resources are under increasing strain as a result of population growth. Such
+resources could be managed in a better way if there was better access to real-time, city-
+wide information on how the resources are being used.
+
+The SURF project will investigate the design of communications technologies which improve the accessibility of this information for urban services providers. This will allow improved management of city resources, resulting in less traffic, a reduction in water shortages, and fewer power-cuts.
+
+In addition to the traditional communication networks, evolving technologies such as mobile phones, IP/wireless cameras and wireless sensor nodes are added to the existing infrastructure. And as a result, contributing to the creation of an additional sensing layer to human habitats.
+
+In the aforementioned context, this PhD work will concentrate on developing methods that enable existing and new WSN infrastructures to accommodate multiple users and applications concurrently. The proposed research will investigate various virtualisation techniques that can potentially complement each. The resulting framework implements various virtualisation mechanisms to form a virtual ecosystem aiming to address and improve issues associated with the existing technologies. These issues include ease of (re)programmability,  manageability, security, performance, resource and constraint management as well as interoperability, deployment/maintenance cost and complexity.
+
+
+%\input{context}
+\pagebreak
+\section{Objectives}
+
+\begin{itemize}
+	\item Analyse how various virtualisation techniques at the different levels of the WSN infrastructure complement each other and examine the synergy that occurs when combining them.
+	
+	\item Study the impact of virtualisation on the WSN node resources with regards to the potential gain in utilization and the inherent overhead associated with the technique.
+	
+	\item Investigate the benefits of virtualising a sensor network in relation to service provisioning and network management.
+	
+	\item Design and develop a virtualisation ecosystem framework that meets the requirements outlined in section 2.1.
+	
+	\item Evaluate the proposed framework by implementing it within the scope of the SURF project.	
+\end{itemize}
+\bigskip
+\input{identified_characteristics}
+
+
+\pagebreak
+\section{Review of the state of the art / current literature / current practice of research}
+\bigskip
+\input{introduction}
+\input{Virtualization}
+
+\input{programming_support}
+\input{virtual_machine}
+\input{sensor_virtualization}
+\input{cloud}
+
+\input{data_virtualization}
+%\input{middleware}
+
+\input{mobile_code}
+\input{database_virtualization}
+\input{network_virtualization}
+\input{conclusion}
+\pagebreak
+\section{Expected progress with respect to the state of the art / current literature / current practice of research}
+
+
+\pagebreak
+\section{Research methodology}
+\input{methods}
+\pagebreak
+\section{Work plan}
+\include{work_plan}
+\pagebreak
+\section{Ethical issues}
+None.
+
+
+
+
+
+
+%\input{notes}
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+
+
+
+\pagebreak
+
+% This includes all references from the BibTeX file in the bibliography
+%\nocite{*}
+
+\begin{spacing}{1}
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+\end{spacing}
+
+\end{document}

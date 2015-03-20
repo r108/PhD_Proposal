@@ -1,0 +1,28 @@
+\usepackage{hyperref}
+\usepackage{calc}
+\usepackage[pdftex]{insdljs}
+
+\newlength{\mylen}
+\settowidth{\mylen}{Enter name: }
+
+
+\begin{insDLJS}{mydljs}{ }
+    this.getField('testLabel').borderColor=color.transparent;
+function hide(){
+     if(this.getField("test").display == display.visible){
+          this.getField("test").display = display.hidden;
+          this.getField("testLabel").display = display.hidden;
+     } else{
+         this.getField("test").display = display.visible;
+         this.getField("testLabel").display = display.visible;
+     }
+}
+\end{insDLJS}
+\begin{document}
+\begin{Form}
+\TextField[name=testLabel,value=Enter name:,width=\mylen,readonly]{} % I don't know why but width=\whidthof and width=\the\whidthof don't work :(
+\TextField[name=test]{} \\
+\PushButton[onclick={hide();},
+]{hide}\\[0.2cm]
+\end{Form}
+\end{document}

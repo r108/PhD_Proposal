@@ -1,0 +1,27 @@
+\subsection{Identified characteristics of an ideal solution}
+This section identifies and analyses the desirable characteristics of an ideal solution.
+\begin{itemize}
+	\item \textbf{\emph{High level programming abstractions.}} Traditionally, application development for WSNs involves working close to the operating system and solving low level problems. This makes development more difficult and slower. Bridging the gap between the high level application requirements and the low level hardware operations necessitates the availability of sufficient high level programming abstractions.
+	
+	\item \textbf{\emph{Ease of (re)configure-ability.}} WSN nodes after their deployment tend to be difficult to access therefore it is a non-trivial and in many cases a non-viable task to reconfigure them. Hence an efficient mechanism that advocates over the air (OTA) reprogramming is needed. Furthermore, the energy cost of radio communication is high and the available bandwidth is low. Therefore a compact data format for optimized packet transmission has to be defined.
+	
+	\item \textbf{\emph{(Re)programmability.}} The ability to implement new user defined functions after deployment -without reloading the entire firmware- is essential to respond to changes in the environment or in user requirements. To address this problem, a modular, high level programming scheme is required.   
+	
+	\item \textbf{\emph{Concurrency.}} Support for multi-user and multi-application execution environment is a key requirement to maximize resource utilization. A suitable runtime environment that supports the concurrent execution of multiple applications is vital.
+	
+	\item \textbf{\emph{Abstraction of heterogeneity.}} By abstracting the low-level hardware specific details of the heterogeneous WSN nodes (devices with various capabilities potentially from different vendors) and representing them as generic resources is necessary to assist interoperability. Moreover, an abstract representation of aggregated resources adds higher availability and extra redundancy to the WSN. Additionally, this will also accelerate and simplify application development.
+	
+	\item \textbf{\emph{Application/user isolation.}} Multiple application/users concurrently sharing the same resources should not be aware about each other and perceive it as if they were the sole user of the system. Moreover, isolation should provide protection against data corruption by restricting access to other user's/application's resources.
+	
+	\item \textbf{\emph{Local dynamic adaptability to environment.}} The nodes should not be confined to a set of pre-defined functionality nor should they include application specific functionality. (e.g. support for additional functionality through extendible modules)
+	
+	\item \textbf{\emph{Distributed adaptability.}}
+	
+	\item \textbf{\emph{Application resource management (reservation and guarantees).}}
+	
+	\item \textbf{\emph{Constraint management.}} Due to race conditions and risk of over provisioning, proper management and synchronization mechanisms are required for appropriate resource administration. Continuous usage monitoring should be used to allow on-demand up/down scaling of allocated resources.
+	
+	\item \textbf{\emph{Mobility and migration (application/VM/service).}} Support for transferring an entire application/VM/service is vital to provide QoS (dynamically changing demand) and redundancy (node/link failure). (e.g. support for autonomous and centralized code propagation over the network.
+\end{itemize}
+
+
