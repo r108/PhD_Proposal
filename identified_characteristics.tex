@@ -1,24 +1,40 @@
 \subsection{Identified characteristics of the proposed framework}
 This section identifies and analyses the desirable characteristics of the proposed framework.
 
-	\subsubsection{ \textbf{\emph{High level programming abstractions.}}} Traditionally, application development for WSNs involves working close to the operating system and solving low level problems. This makes development more difficult and slower. Bridging the gap between the high level application requirements and the low level hardware operations necessitates the availability of sufficient high level programming abstractions.
+	\subsubsection{ \textbf{\emph{High level programming interfaces.}}} Traditionally, application development for WSNs involves working close to the operating system and solving low level problems. This makes development more difficult and time consuming. Bridging the gap between the high level application specifications and the low level hardware operations requires the availability of sufficient high level programming interfaces.
 	
-	\subsubsection{ \textbf{\emph{Ease of (re)configure-ability.}}} WSN nodes after their deployment tend to be difficult to access therefore it is a non-trivial and in many cases a non-viable task to reconfigure them. Hence an efficient mechanism that advocates over the air (OTA) reprogramming is needed. Furthermore, the energy cost of radio communication is high and the available bandwidth is low. Therefore a compact data format for optimized packet transmission has to be defined.
+	\subsubsection{ \textbf{\emph{Ease of (re)configure-ability.}}} 
+	%WSN nodes after their deployment tend to be difficult to access therefore it is a non-trivial and in many cases a non-viable task to %reconfigure them. Hence an efficient mechanism that advocates over the air (OTA) reprogramming is needed. Furthermore, the energy cost of %radio communication is high and the available bandwidth is low. Therefore a compact data format for optimized packet transmission has to %be defined.
 	
-	\subsubsection{ \textbf{\emph{(Re)programmability.}}} The ability to easily implement new user defined functions after deployment -without reloading the entire firmware- is essential in order to respond to changes in the environment or in user requirements. To address this problem, a modular, high level programming scheme is required.   
 	
-	\subsubsection{ \textbf{\emph{Concurrency.}}} Support for multi-user and multi-application runtime environment, that accommodates the concurrent execution of multiple application instances is a key requirement to maximize resource utilization.
+	Wireless sensor nodes after deployment can be difficult to access and reconfigure. As a result over the air (OTA) programming is used to efficiently reprogram nodes once deployed. To reduce the energy cost associated with reconfiguring the nodes, using OTA programming, a compact data format for optimized data transmission has to be defined. 
 	
-	\subsubsection{ \textbf{\emph{Abstraction of heterogeneity.}}} Abstracting the low-level hardware specific details of the heterogeneous WSN nodes (devices with various capabilities potentially from different vendors) and representing them as generic resources is of key importance to assist interoperability and simplifying application development. Additionally, aggregation of resources into a virtual pool offers higher availability and adds extra redundancy to the WSN. 
-	
-	\subsubsection{\textbf{\emph{Application/user isolation.}}} Multiple applications/users concurrently sharing the same resources should not be aware of each other and perceive it as if they were the sole user of the system. Moreover, isolation should provide protection against data corruption by restricting access to other user's/application's resources.
-	
-	\subsubsection{ \textbf{\emph{Local dynamic adaptability to environment.}}} The nodes should not be confined to a set of pre-defined functionality nor should they include application specific functionality. (e.g. support for additional functionality through extendible modules)
-	
-	\subsubsection{ \textbf{\emph{Distributed adaptability.}}} {\color{red} NEEDS TO BE DEFINED!!} The dynamically changing conditions in a WSN necessitate a distributed decision making method which enables applications that are running on individual nodes to adapt to these changes. The ability of the nodes to find optimal solutions collaboratively is an essential ability of future WSNs.
-	
-	\subsubsection{ \textbf{\emph{Application resource management (reservation and guarantees).}}} {\color{red}MAYBE IT COULD BE MERGED WITH THE BELOW POINT.}
-	
-	\subsubsection{ \textbf{\emph{Constraint management (resource efficiency).}} }Due to race conditions and risk of over provisioning, proper management and synchronization mechanisms are required for appropriate resource administration. Continuous usage monitoring should be used to allow on-demand up/down scaling of allocated resources.
+	\subsubsection{ \textbf{\emph{(Re)programmability.}}} The ability to implement new user defined functions after deployment without reloading the entire firmware is essential in order to respond to changes in the environment or in user requirements. To address this, modular, high level programming abstractions need to be defined.   
 	
 	\subsubsection{ \textbf{\emph{Mobility and migration (application/VM/service).}}} Support for transferring an entire application/VM/service is vital to provide QoS (dynamically changing demand) and redundancy (node/link failure). (e.g. support for autonomous and centralized code propagation over the network.
+
+	\subsubsection{ \textbf{\emph{Concurrency.}}} Support for a multi-user and multi-application runtime environment, that accommodates the concurrent execution of multiple application instances is a key requirement to maximize resource utilization.
+	
+	\subsubsection{ \textbf{\emph{Abstraction of heterogeneity.}}} Heterogeneous WSNs consist of nodes of varying capabilities from different vendors. Abstracting the low-level hardware specific details of WSN nodes and representing them as generic resources is important to simplify application development and support interoperability among heterogeneous nodes. 
+	
+	%Additionally, aggregation of resources into a virtual pool offers higher availability and adds extra redundancy to the WSN. 
+	
+	
+	\subsubsection{\textbf{\emph{Application/user isolation.}}} 
+	%Applications or users that concurrently share the same resources should not be aware of each other and perceive it as if they were the sole user of the system. Moreover, isolation should provide protection against data corruption by restricting access to other user's/application's resources.
+	
+	Isolation is required to ensure that multiple applications or users are protected from each other as they concurrently share the same resources.  
+	
+	
+	%\subsubsection{ \textbf{\emph{Local dynamic adaptability to environment.}}} The nodes should not be confined to a set of pre-defined functionality nor should they include application specific functionality. (e.g. support for additional functionality through extendible modules)
+	
+	%\subsubsection{ \textbf{\emph{Distributed adaptability.}}} {\color{red} NEEDS TO BE DEFINED!!} The dynamically changing conditions in a WSN necessitate a distributed decision making method which enables applications that are running on individual nodes to adapt to these changes. The ability of the nodes to find optimal solutions collaboratively is an essential ability of future WSNs.
+	
+%	\subsubsection{ \textbf{\emph{Application resource management (reservation and guarantees).}}} {\color{red}MAYBE IT COULD BE MERGED WITH THE BELOW POINT.}
+	
+	\subsubsection{ \textbf{\emph{Resource allocation/management.}} }Due to race conditions and risk of over provisioning, proper management and synchronization mechanisms are required for appropriate resource administration. Continuous usage monitoring should be used to allow on-demand up/down scaling of allocated resources.  
+	 
+	
+	\subsubsection{ \textbf{\emph{Resource discovery}}} ??
+	
+

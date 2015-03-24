@@ -385,6 +385,37 @@ P.~Stanley-Marbell and L.~Iftode, ``{Scylla: a smart virtual machine for mobile
   \url{http://dx.doi.org/10.1109/MCSA.2000.895380}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Brown:2007:VNL:1317103.1317105}
+\BIBentryALTinterwordspacing
+M.~Brown, S.~Gilbert, N.~Lynch, C.~Newport, T.~Nolte, and M.~Spindel, ``The
+  virtual node layer: A programming abstraction for wireless sensor networks,''
+  \emph{SIGBED Rev.}, vol.~4, no.~3, pp. 7--12, Jul. 2007. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/1317103.1317105}
+\BIBentrySTDinterwordspacing
+
+\bibitem{1648519}
+\BIBentryALTinterwordspacing
+S.~Kabadayi, A.~Pridgen, and C.~Julien, ``Virtual sensors: abstracting data
+  from physical sensors,'' in \emph{World of Wireless, Mobile and Multimedia
+  Networks, 2006. WoWMoM 2006. International Symposium on a}, 2006. [Online].
+  Available: \url{http://dx.doi.org/10.1109/WOWMOM.2006.115}
+\BIBentrySTDinterwordspacing
+
+\bibitem{5721776}
+N.~Raveendranathan, S.~Galzarano, V.~Loseu, R.~Gravina, R.~Giannantonio,
+  M.~Sgroi, R.~Jafari, and G.~Fortino, ``From modeling to implementation of
+  virtual sensors in body sensor networks,'' \emph{Sensors Journal, IEEE},
+  vol.~12, no.~3, pp. 583--593, March 2012.
+
+\bibitem{5346155}
+\BIBentryALTinterwordspacing
+G.~Fortino, A.~Guerrieri, F.~Bellifemine, and R.~Giannantonio,
+  ``Platform-independent development of collaborative wireless body sensor
+  network applications: {SPINE2},'' in \emph{Systems, Man and Cybernetics,
+  2009. SMC 2009. IEEE International Conference on}, Oct. 2009, pp. 3144--3150.
+  [Online]. Available: \url{http://dx.doi.org/10.1109/ICSMC.2009.5346155}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Kurschl:2009:CCC:1806338.1806435}
 \BIBentryALTinterwordspacing
 W.~Kurschl and W.~Beer, ``Combining cloud computing and wireless sensor
@@ -433,37 +464,6 @@ S.~Distefano, G.~Merlino, and A.~Puliafito, ``{Sensing and Actuation as a
 S.~Alam, M.~M.~R. Chowdhury, and J.~Noll, ``{Virtualizing sensor for the
   enablement of semantic-aware internet of things ecosystem},'' \emph{Guest
   Ed}, vol.~2, pp. 41--51, 2010.
-
-\bibitem{Brown:2007:VNL:1317103.1317105}
-\BIBentryALTinterwordspacing
-M.~Brown, S.~Gilbert, N.~Lynch, C.~Newport, T.~Nolte, and M.~Spindel, ``The
-  virtual node layer: A programming abstraction for wireless sensor networks,''
-  \emph{SIGBED Rev.}, vol.~4, no.~3, pp. 7--12, Jul. 2007. [Online]. Available:
-  \url{http://doi.acm.org/10.1145/1317103.1317105}
-\BIBentrySTDinterwordspacing
-
-\bibitem{1648519}
-\BIBentryALTinterwordspacing
-S.~Kabadayi, A.~Pridgen, and C.~Julien, ``Virtual sensors: abstracting data
-  from physical sensors,'' in \emph{World of Wireless, Mobile and Multimedia
-  Networks, 2006. WoWMoM 2006. International Symposium on a}, 2006. [Online].
-  Available: \url{http://dx.doi.org/10.1109/WOWMOM.2006.115}
-\BIBentrySTDinterwordspacing
-
-\bibitem{5721776}
-N.~Raveendranathan, S.~Galzarano, V.~Loseu, R.~Gravina, R.~Giannantonio,
-  M.~Sgroi, R.~Jafari, and G.~Fortino, ``From modeling to implementation of
-  virtual sensors in body sensor networks,'' \emph{Sensors Journal, IEEE},
-  vol.~12, no.~3, pp. 583--593, March 2012.
-
-\bibitem{5346155}
-\BIBentryALTinterwordspacing
-G.~Fortino, A.~Guerrieri, F.~Bellifemine, and R.~Giannantonio,
-  ``Platform-independent development of collaborative wireless body sensor
-  network applications: {SPINE2},'' in \emph{Systems, Man and Cybernetics,
-  2009. SMC 2009. IEEE International Conference on}, Oct. 2009, pp. 3144--3150.
-  [Online]. Available: \url{http://dx.doi.org/10.1109/ICSMC.2009.5346155}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Rajasekar:2005:ASD:1080885.1080892}
 \BIBentryALTinterwordspacing
@@ -515,11 +515,11 @@ S.~Hadim and N.~Mohamed, ``Middleware: Middleware challenges and approaches for
 J.~Yick, B.~Mukherjee, and D.~Ghosal, ``Wireless sensor network survey,''
   \emph{Computer networks}, vol.~52, no.~12, pp. 2292--2330, 2008.
 
-\bibitem{citeulike:8979174}
+\bibitem{Chowdhury2009Network}
 \BIBentryALTinterwordspacing
-N.~M. M.~K. Chowdhury and R.~Boutaba, ``Network virtualization: state of the
-  art and research challenges,'' \emph{Communications Magazine, IEEE}, vol.~47,
-  no.~7, pp. 20--26, Jul. 2009. [Online]. Available:
+N.~M. M.~K. Chowdhury and R.~Boutaba, ``{Network virtualization: state of the
+  art and research challenges},'' \emph{Communications Magazine, IEEE},
+  vol.~47, no.~7, pp. 20--26, Jul. 2009. [Online]. Available:
   \url{http://dx.doi.org/10.1109/mcom.2009.5183468}
 \BIBentrySTDinterwordspacing
 
@@ -547,13 +547,5 @@ I.~Leontiadis, C.~Efstratiou, C.~Mascolo, and J.~Crowcroft, ``{SenShare:
   transforming sensor networks into multi-application sensing
   infrastructures},'' in \emph{Wireless Sensor Networks}.\hskip 1em plus 0.5em
   minus 0.4em\relax Springer, 2012, pp. 65--81.
-
-\bibitem{Chowdhury2009Network}
-\BIBentryALTinterwordspacing
-N.~M. M.~K. Chowdhury and R.~Boutaba, ``{Network virtualization: state of the
-  art and research challenges},'' \emph{Communications Magazine, IEEE},
-  vol.~47, no.~7, pp. 20--26, Jul. 2009. [Online]. Available:
-  \url{http://dx.doi.org/10.1109/mcom.2009.5183468}
-\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

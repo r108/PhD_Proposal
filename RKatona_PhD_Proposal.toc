@@ -1,37 +1,35 @@
 \contentsline {section}{\numberline {1}Research context and contribution to the research field}{3}{section.1}
 \contentsline {section}{\numberline {2}Objectives}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Identified characteristics of the proposed framework}{4}{subsection.2.1}
-\contentsline {subsubsection}{ \textbf {\emph {High level programming abstractions.}}}{4}{section*.2}
-\contentsline {subsubsection}{ \textbf {\emph {Ease of (re)configure-ability.}}}{4}{section*.3}
-\contentsline {subsubsection}{ \textbf {\emph {(Re)programmability.}}}{5}{section*.4}
-\contentsline {subsubsection}{ \textbf {\emph {Concurrency.}}}{5}{section*.5}
-\contentsline {subsubsection}{ \textbf {\emph {Abstraction of heterogeneity.}}}{5}{section*.6}
-\contentsline {subsubsection}{\textbf {\emph {Application/user isolation.}}}{5}{section*.7}
-\contentsline {subsubsection}{ \textbf {\emph {Local dynamic adaptability to environment.}}}{5}{section*.8}
-\contentsline {subsubsection}{ \textbf {\emph {Distributed adaptability.}}}{6}{section*.9}
-\contentsline {subsubsection}{ \textbf {\emph {Application resource management (reservation and guarantees).}}}{6}{section*.10}
-\contentsline {subsubsection}{ \textbf {\emph {Constraint management (resource efficiency).}} }{6}{section*.11}
-\contentsline {subsubsection}{ \textbf {\emph {Mobility and migration (application/VM/service).}}}{6}{section*.12}
+\contentsline {subsubsection}{\numberline {2.1.1} \textbf {\emph {High level programming interfaces.}}}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2} \textbf {\emph {Ease of (re)configure-ability.}}}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3} \textbf {\emph {(Re)programmability.}}}{5}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4} \textbf {\emph {Mobility and migration (application/VM/service).}}}{5}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5} \textbf {\emph {Concurrency.}}}{5}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6} \textbf {\emph {Abstraction of heterogeneity.}}}{5}{subsubsection.2.1.6}
+\contentsline {subsubsection}{\numberline {2.1.7}\textbf {\emph {Application/user isolation.}}}{5}{subsubsection.2.1.7}
+\contentsline {subsubsection}{\numberline {2.1.8} \textbf {\emph {Resource allocation/management.}} }{6}{subsubsection.2.1.8}
+\contentsline {subsubsection}{\numberline {2.1.9} \textbf {\emph {Resource discovery}}}{6}{subsubsection.2.1.9}
 \contentsline {section}{\numberline {3}Review of the state of the art / current literature / current practice of research}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction}{7}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Virtualisation}{8}{subsection.3.2}
-\contentsline {paragraph}{Partitioning:}{9}{section*.13}
-\contentsline {paragraph}{Aggregation:}{9}{section*.14}
-\contentsline {paragraph}{Composition:}{9}{section*.15}
+\contentsline {paragraph}{Partitioning:}{9}{section*.2}
+\contentsline {paragraph}{Aggregation:}{9}{section*.3}
+\contentsline {paragraph}{Composition:}{9}{section*.4}
 \contentsline {subsection}{\numberline {3.3}WSN programming}{10}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Virtual machines (VMs)}{11}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Virtual Sensor (VS)}{14}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Cloud computing aproaches}{15}{subsection.3.6}
-\contentsline {subsubsection}{Software as a Service (SaaS)}{16}{section*.16}
-\contentsline {subsubsection}{Network as a Service (NaaS)}{16}{section*.17}
-\contentsline {subsubsection}{Sensing and Actuation as a Service (SAaaS)}{16}{section*.18}
-\contentsline {subsubsection}{Sensor as a Service (SenaaS)}{17}{section*.19}
-\contentsline {subsection}{\numberline {3.7}Data Virtualization (DV)}{18}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.6.1}Software as a Service (SaaS)}{15}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Network as a Service (NaaS)}{16}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Sensing and Actuation as a Service (SAaaS)}{16}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Sensor as a Service (SenaaS)}{17}{subsubsection.3.6.4}
+\contentsline {subsection}{\numberline {3.7}Data Virtualization (DV)}{17}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}Mobile agent approach}{18}{subsection.3.8}
 \contentsline {subsection}{\numberline {3.9}Query Processing Approach}{19}{subsection.3.9}
 \contentsline {subsection}{\numberline {3.10}Sensor Network Virtualisation (SNV)}{20}{subsection.3.10}
 \contentsline {subsection}{\numberline {3.11}Conclusion}{21}{subsection.3.11}
-\contentsline {section}{\numberline {4}Expected progress with respect to the state of the art / current literature / current practice of research}{23}{section.4}
-\contentsline {section}{\numberline {5}Research methodology}{24}{section.5}
-\contentsline {section}{\numberline {6}Work plan}{25}{section.6}
-\contentsline {section}{\numberline {7}Ethical issues}{26}{section.7}
+\contentsline {section}{\numberline {4}Expected progress with respect to the state of the art / current literature / current practice of research}{22}{section.4}
+\contentsline {section}{\numberline {5}Research methodology}{23}{section.5}
+\contentsline {section}{\numberline {6}Work plan}{24}{section.6}
+\contentsline {section}{\numberline {7}Ethical issues}{25}{section.7}

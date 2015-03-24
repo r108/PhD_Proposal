@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RKatona_PhD_Proposal.aux
+A level-1 auxiliary file: work_plan.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -14,45 +15,45 @@ Database file #1: bibliography.bib
 Warning--empty booktitle in Boulis03designand
 
 Done.
-You've used 79 entries,
+You've used 78 entries,
             4039 wiz_defined-function locations,
-            1303 strings with 25937 characters,
-and the built_in function-call counts, 66607 in all, are:
-= -- 5377
-> -- 1603
-< -- 570
-+ -- 866
-- -- 273
-* -- 3334
-:= -- 9891
-add.period$ -- 182
-call.type$ -- 79
-change.case$ -- 75
-chr.to.int$ -- 1320
-cite$ -- 80
-duplicate$ -- 4693
-empty$ -- 5487
-format.name$ -- 344
-if$ -- 15466
+            1302 strings with 25869 characters,
+and the built_in function-call counts, 65750 in all, are:
+= -- 5297
+> -- 1588
+< -- 561
++ -- 858
+- -- 271
+* -- 3288
+:= -- 9749
+add.period$ -- 180
+call.type$ -- 78
+change.case$ -- 74
+chr.to.int$ -- 1302
+cite$ -- 79
+duplicate$ -- 4634
+empty$ -- 5429
+format.name$ -- 341
+if$ -- 15273
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 840
-newline$ -- 324
-num.names$ -- 79
-pop$ -- 1924
+int.to.str$ -- 78
+missing$ -- 831
+newline$ -- 319
+num.names$ -- 78
+pop$ -- 1911
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 5118
+skip$ -- 5051
 stack$ -- 0
-substring$ -- 3164
-swap$ -- 3922
-text.length$ -- 130
+substring$ -- 3121
+swap$ -- 3866
+text.length$ -- 127
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 79
+type$ -- 78
 warning$ -- 1
-while$ -- 331
-width$ -- 81
-write$ -- 887
+while$ -- 326
+width$ -- 80
+write$ -- 873
 (There was 1 warning)

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.19)  20 MAR 2015 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  24 MAR 2015 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **RKatona_PhD_Proposal.tex
 (./RKatona_PhD_Proposal.tex
 LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -391,10 +391,6 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
-Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
-Package cleveref Info: `listings' support loaded on input line 2950.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
@@ -661,32 +657,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (./Virtualization.tex [8] [9]) (./programming_support.tex [10])
 (./virtual_machine.tex [11] [12]) (./sensor_virtualization.tex [13] [14])
 (./cloud.tex
-Overfull \hbox (3.40726pt too wide) in paragraph at lines 10--1
+Overfull \hbox (26.52396pt too wide) in paragraph at lines 10--1
 \OT1/cmr/m/n/10.95 frame-work [[]] that pro-vides pro-gram-ming ab-strac-tions 
-based on the task-oriented paradigm.
+based on the task-oriented paradigm[cite].
  []
 
 [15] [16]) (./data_virtualization.tex [17]) (./mobile_code.tex [18])
-(./database_virtualization.tex [19]) (./network_virtualization.tex [20])
-(./conclusion.tex
+(./database_virtualization.tex) (./network_virtualization.tex [19] [20]
+
+Package natbib Warning: Citation `Chowdhury2009Network ' on page 21 undefined o
+n input line 11.
+
+) (./conclusion.tex
 Overfull \hbox (119.05211pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10.95 This sec-tion is still a work-ing progress so please ig-nore
  it!!!!!!!!!!!!!!!!!!!!!!!?????????????????????????xxxxxxxxxxxxxxxx 
  []
 
-[21]) [22] [23] (./methods.tex) [24] [25]
+) [21] [22] (./methods.tex) [23] [24]
 \openout2 = `work_plan.aux'.
 
- (./work_plan.tex) [26
+ (./work_plan.tex) [25
 
 
 ]
-(./RKatona_PhD_Proposal.bbl [27] [28] [29] [30] [31] [32])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
- [33]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+(./RKatona_PhD_Proposal.bbl [26] [27] [28] [29] [30] [31])
 
-(./RKatona_PhD_Proposal.aux (./work_plan.aux))
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+[32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+ (./RKatona_PhD_Proposal.aux (./work_plan.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `RKatona_PhD_Proposal.out' has not changed.
@@ -698,13 +700,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
 ### semi simple group (level 1) entered at line 159 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10547 strings out of 493105
- 162648 string characters out of 6137072
- 266590 words of memory out of 5000000
- 13692 multiletter control sequences out of 15000+600000
+ 9103 strings out of 495020
+ 130481 string characters out of 6181324
+ 218520 words of memory out of 5000000
+ 12006 multiletter control sequences out of 15000+600000
  12365 words of font info for 46 fonts, out of 8000000 for 9000
- 1142 hyphenation exceptions out of 8191
- 34i,12n,52p,1654b,859s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 15 hyphenation exceptions out of 8191
+ 34i,12n,52p,1654b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
@@ -714,10 +716,10 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RKatona_PhD_Proposal.pdf (33 pages, 217429 bytes).
+Output written on RKatona_PhD_Proposal.pdf (32 pages, 215284 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 152 named destinations out of 1000 (max. 500000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 148 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
