@@ -81,25 +81,6 @@ M.~Obaidat and S.~Misra, \emph{Principles of Wireless Sensor Networks}.\hskip
   Available: \url{https://books.google.ie/books?id=V7IkBQAAQBAJ}
 \BIBentrySTDinterwordspacing
 
-\bibitem{davis2012survey}
-A.~Davis and H.~Chang, ``A survey of wireless sensor network architectures,''
-  \emph{Department of Electrical and Computer Engineering, Tufts University,
-  Medford, USA, International Journal of Computer Science \& Engineering Survey
-  (IJCSES) Vol}, vol.~3, 2012.
-
-\bibitem{mottola2011programming}
-L.~Mottola and G.~P. Picco, ``Programming wireless sensor networks: Fundamental
-  concepts and state of the art,'' \emph{ACM Computing Surveys (CSUR)},
-  vol.~43, no.~3, p.~19, 2011.
-
-\bibitem{Akyildiz2002393}
-\BIBentryALTinterwordspacing
-I.~F. Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless
-  sensor networks: a survey},'' \emph{Computer Networks}, vol.~38, no.~4, pp.
-  393--422, 2002. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S13891 8601003024}
-\BIBentrySTDinterwordspacing
-
 \bibitem{islam2012virtualization}
 M.~M. Islam and E.-N. Huh, ``{Virtualization in wireless sensor network:
   challenges and opportunities},'' \emph{Journal of Networks}, vol.~7, no.~3,
@@ -251,6 +232,11 @@ A.~M. Reddy, A.~V. U.~P. Kumar, D.~Janakiram, and G.~A. Kumar, ``{Wireless
   \url{http://dx.doi.org/10.1504/IJSNET.2009.027631}
 \BIBentrySTDinterwordspacing
 
+\bibitem{mottola2011programming}
+L.~Mottola and G.~P. Picco, ``Programming wireless sensor networks: Fundamental
+  concepts and state of the art,'' \emph{ACM Computing Surveys (CSUR)},
+  vol.~43, no.~3, p.~19, 2011.
+
 \bibitem{simon2005squawk}
 D.~Simon and C.~Cifuentes, ``The squawk virtual machine: Java™ on the bare
   metal,'' in \emph{Companion to the 20th annual ACM SIGPLAN conference on
@@ -282,6 +268,12 @@ A.~Azzara, S.~Bocchino, P.~Pagano, G.~Pellerano, and M.~Petracca, ``Middleware
   \emph{Software, Telecommunications and Computer Networks (SoftCOM), 2013 21st
   International Conference on}, Sept 2013, pp. 1--6.
 
+\bibitem{lange2011minimal}
+J.~R. Lange, K.~Pedretti, P.~Dinda, P.~G. Bridges, C.~Bae, P.~Soltero, and
+  A.~Merritt, ``Minimal-overhead virtualization of a large scale
+  supercomputer,'' in \emph{ACM SIGPLAN Notices}, vol.~46, no.~7.\hskip 1em
+  plus 0.5em minus 0.4em\relax ACM, 2011, pp. 169--180.
+
 \bibitem{Montero2011750}
 \BIBentryALTinterwordspacing
 R.~S. Montero, R.~Moreno-Vozmediano, and I.~M. Llorente, ``{An elasticity model
@@ -300,6 +292,12 @@ N.~Brouwers, K.~Langendoen, and P.~Corke, ``{Darjeeling, a Feature-rich VM for
   Available:
   \url{http://doi.acm.org.ezproxy.cit.ie:2048/10.1145/1644038.1644056}
 \BIBentrySTDinterwordspacing
+
+\bibitem{tennenhouse2002towards}
+D.~L. Tennenhouse and D.~J. Wetherall, ``Towards an active network
+  architecture,'' in \emph{DARPA Active NEtworks Conference and Exposition,
+  2002. Proceedings}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2002, pp.
+  2--15.
 
 \bibitem{levis2004bridging}
 P.~A. Levis, D.~E. Gay, and D.~E. Culler, \emph{Bridging the gap: Programming
@@ -416,6 +414,13 @@ G.~Fortino, A.~Guerrieri, F.~Bellifemine, and R.~Giannantonio,
   [Online]. Available: \url{http://dx.doi.org/10.1109/ICSMC.2009.5346155}
 \BIBentrySTDinterwordspacing
 
+\bibitem{plasmeijer2012task}
+R.~Plasmeijer, B.~Lijnse, S.~Michels, P.~Achten, and P.~Koopman,
+  ``Task-oriented programming in a pure functional language,'' in
+  \emph{Proceedings of the 14th symposium on Principles and Practice of
+  Declarative Programming}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2012,
+  pp. 195--206.
+
 \bibitem{Kurschl:2009:CCC:1806338.1806435}
 \BIBentryALTinterwordspacing
 W.~Kurschl and W.~Beer, ``Combining cloud computing and wireless sensor
@@ -451,6 +456,13 @@ M.~M. Hassan, B.~Song, and E.-N. Huh, ``A framework of sensor-cloud integration
   conference on Ubiquitous information management and communication}.\hskip 1em
   plus 0.5em minus 0.4em\relax ACM, 2009, pp. 618--626.
 
+\bibitem{lenk2009s}
+A.~Lenk, M.~Klems, J.~Nimis, S.~Tai, and T.~Sandholm, ``What's inside the
+  cloud? an architectural map of the cloud landscape,'' in \emph{Proceedings of
+  the 2009 ICSE Workshop on Software Engineering Challenges of Cloud
+  Computing}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE Computer Society,
+  2009, pp. 23--31.
+
 \bibitem{SAaaS}
 \BIBentryALTinterwordspacing
 S.~Distefano, G.~Merlino, and A.~Puliafito, ``{Sensing and Actuation as a
@@ -465,6 +477,13 @@ S.~Alam, M.~M.~R. Chowdhury, and J.~Noll, ``{Virtualizing sensor for the
   enablement of semantic-aware internet of things ecosystem},'' \emph{Guest
   Ed}, vol.~2, pp. 41--51, 2010.
 
+\bibitem{book:1035720}
+\BIBentryALTinterwordspacing
+\emph{Data Virtualization for Business Intelligence Systems}.\hskip 1em plus
+  0.5em minus 0.4em\relax Morgan Kaufmann, 2012. [Online]. Available:
+  \url{http://gen.lib.rus.ec/book/index.php?md5=2a706eb853759791c794b7417cf59f7d}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Rajasekar:2005:ASD:1080885.1080892}
 \BIBentryALTinterwordspacing
 A.~Rajasekar, S.~Lu, R.~Moore, F.~Vernon, J.~Orcutt, and K.~Lindquist,
@@ -475,11 +494,33 @@ A.~Rajasekar, S.~Lu, R.~Moore, F.~Vernon, J.~Orcutt, and K.~Lindquist,
   \url{http://doi.acm.org.ezproxy.cit.ie:2048/10.1145/1080885.1080892}
 \BIBentrySTDinterwordspacing
 
+\bibitem{baru1998sdsc}
+C.~Baru, R.~Moore, A.~Rajasekar, and M.~Wan, ``The sdsc storage resource
+  broker,'' in \emph{Proceedings of the 1998 conference of the Centre for
+  Advanced Studies on Collaborative research}.\hskip 1em plus 0.5em minus
+  0.4em\relax IBM Press, 1998, p.~5.
+
+\bibitem{moore2004data}
+R.~W. Moore, A.~Jagatheesan, A.~Rajasekar, M.~Wan, and W.~Schroeder, ``Data
+  grid management systems,'' 2004.
+
 \bibitem{yuriyama2010sensor}
 M.~Yuriyama and T.~Kushida, ``{Sensor-cloud infrastructure-physical sensor
   management with virtualized sensors on cloud computing},'' in
   \emph{Network-Based Information Systems (NBiS), 2010 13th International
   Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2010, pp. 1--8.
+
+\bibitem{botts2007opengis}
+M.~Botts and A.~Robin, ``Opengis sensor model language (sensorml)
+  implementation specification,'' \emph{OpenGIS Implementation Specification
+  OGC}, pp. 07--000, 2007.
+
+\bibitem{book:1001628}
+\BIBentryALTinterwordspacing
+S.~F. J.~S. Sasu~Tarkoma(auth.), David~Hutchison, \emph{Publish/Subscribe
+  Systems: Design and Principles}, 2012. [Online]. Available:
+  \url{http://gen.lib.rus.ec/book/index.php?md5=f1b33bcfa1035bb87499e892a5407c2f}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Boulis03designand}
 A.~Boulis, C.~chieh Han, and M.~B. Srivastava, ``{Design and Implementation of

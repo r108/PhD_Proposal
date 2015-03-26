@@ -2,11 +2,11 @@
 The notion of virtualisation has been around for decades, since the debut of virtual memory \cite{denning1970virtual} and virtual computer systems \cite{goldberg1973architectural}.
 This section provides a brief introduction to virtualisation and discusses the basic characteristics of the technology.
 
-The concept that provides one or more functional environments, which are independent from the underlying resources, is known as virtualisation. At its core, virtualisation simply refers to the decoupling of computation — processing, sensing/actuating, storage and networking — from the resource that performs the action. It is used to conceal the actual physical traits of computer resources in order to simplify the methods through which those resources can be interacted with. The technology exists in many different forms, depending on the level of abstraction it provides at the hardware, instruction set, system, process, library or application level. 
+The concept that provides one or more functional environments, which are independent from the underlying resources, is known as virtualisation. At its core, virtualisation simply refers to the decoupling of computation — processing, sensing/actuating, storage and networking — from the resource that performs the action. It is used to conceal the actual physical traits of computing resources in order to simplify the methods through which those resources can be interacted with. The technology exists in many different forms, depending on the degree of abstraction it provides at the hardware, instruction set, system, process, library or application level. 
 
 %Depending on the desired goal the virtualisation process may divide a single computing resource into multiple virtual copies to advocate concurrency or may combine several independent resource units into one virtual entity to increase computational capacity and supply redundancy. 
 
-One form of virtualisation facilitates multiple application instances to concurrently execute in a virtual environment. Another form allows the aggregation of hardware resources that are physically distributed across multiple devices into an individual virtual unit, offering load balancing, redundancy and abstraction of heterogeneous resources. Such abstractions facilitate the translation of resources into a generic virtual resource that in turn can be consumed by various user applications via high-level software interfaces. 
+One form of virtualisation facilitates multiple application instances to concurrently execute in a virtual environment. Another form allows the aggregation of hardware resources that are physically distributed across multiple devices into an individual virtual unit. The benefits of this is that it offers load balancing, redundancy and abstraction of heterogeneous resources. Such abstractions facilitate the translation of resources into a generic virtual resource that in turn can be consumed by various user applications via high-level software interfaces. 
 
 
 Virtualisation is typically implemented by applying various techniques such as: hardware/software partitioning, aggregation or composition, time-sharing and indirection or encapsulation \cite{fortes2005guest} which are further outlined below.
@@ -38,5 +38,14 @@ content...
 \end{comment}
 
 \bigskip
-Virtualisation technology has now matured to the point where it can be applied to WSNs. Simplified application development and network management as well as improved resource utilization are the advantages of employing virtualisation in WSNs. By providing user applications with a logical view of the system, virtualisation  offers many additional benefits including increased fault tolerance and improved security through isolation. Greater flexibility, in the shape of application compatibility and portability, are extra benefits that can be attained by abstracting the hardware specific details of WSN nodes with different architectures. By hiding the actual physical environment behind a generic virtual representation, heterogeneous device resources can be automatically mapped to user applications.
+Virtualisation technology has now matured to the point where it can be applied to WSNs. By abstracting the hardware specific details of WSN nodes with different architectures and hiding the actual physical environment behind a generic virtual representation, heterogeneous device resources can be automatically mapped to user applications. Virtualisation can offer numerous benefits, by providing user applications with a logical view of the system, including:
 
+\begin{itemize}
+	\item Simplified application development
+	\item Improved resource utilization
+	\item Simplified network management
+	\item Increased fault tolerance and enhanced security through isolation
+	\item Greater flexibility, in the shape of application compatibility and portability
+	
+\end{itemize}
+ 
