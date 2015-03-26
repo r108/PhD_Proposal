@@ -14,51 +14,49 @@ Database file #1: bibliography.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty author and editor in book:1035720
 Warning--empty journal in moore2004data
-Too many commas in name 1 of "Sasu Tarkoma(auth.), David Hutchison, Serge Fdida, Joe Sventek(eds.)" for entry book:1001628
-while executing---line 2419 of file IEEEtran.bst
 Warning--empty publisher in book:1001628
 Warning--empty booktitle in Boulis03designand
 
 Done.
-You've used 85 entries,
+You've used 88 entries,
             4039 wiz_defined-function locations,
-            1333 strings with 27199 characters,
-and the built_in function-call counts, 70571 in all, are:
-= -- 5635
-> -- 1720
-< -- 591
-+ -- 927
-- -- 296
-* -- 3513
-:= -- 10429
-add.period$ -- 198
-call.type$ -- 85
-change.case$ -- 79
-chr.to.int$ -- 1380
-cite$ -- 89
-duplicate$ -- 4984
-empty$ -- 5909
-format.name$ -- 371
-if$ -- 16411
+            1350 strings with 27847 characters,
+and the built_in function-call counts, 73323 in all, are:
+= -- 5854
+> -- 1792
+< -- 616
++ -- 965
+- -- 308
+* -- 3651
+:= -- 10822
+add.period$ -- 206
+call.type$ -- 88
+change.case$ -- 82
+chr.to.int$ -- 1440
+cite$ -- 92
+duplicate$ -- 5174
+empty$ -- 6136
+format.name$ -- 387
+if$ -- 17055
 int.to.chr$ -- 0
-int.to.str$ -- 85
-missing$ -- 898
-newline$ -- 342
-num.names$ -- 84
-pop$ -- 2100
+int.to.str$ -- 88
+missing$ -- 931
+newline$ -- 353
+num.names$ -- 87
+pop$ -- 2178
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 5422
+skip$ -- 5631
 stack$ -- 0
-substring$ -- 3308
-swap$ -- 4119
-text.length$ -- 131
+substring$ -- 3451
+swap$ -- 4282
+text.length$ -- 136
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 85
+type$ -- 88
 warning$ -- 4
-while$ -- 349
-width$ -- 87
-write$ -- 932
-(There was 1 error message)
+while$ -- 364
+width$ -- 90
+write$ -- 964
+(There were 4 warnings)

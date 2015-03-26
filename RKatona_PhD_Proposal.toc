@@ -26,10 +26,10 @@
 \contentsline {subsubsection}{\numberline {3.6.4}Sensor as a Service (SenaaS)}{17}{subsubsection.3.6.4}
 \contentsline {subsection}{\numberline {3.7}Data Virtualization (DV)}{17}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}Mobile agent approach}{18}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Query Processing Approach}{19}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.9}Query Processing Approach}{20}{subsection.3.9}
 \contentsline {subsection}{\numberline {3.10}Sensor Network Virtualisation (SNV)}{20}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}Conclusion}{21}{subsection.3.11}
-\contentsline {section}{\numberline {4}Expected progress with respect to the state of the art / current literature / current practice of research}{22}{section.4}
-\contentsline {section}{\numberline {5}Research methodology}{23}{section.5}
-\contentsline {section}{\numberline {6}Work plan}{24}{section.6}
-\contentsline {section}{\numberline {7}Ethical issues}{25}{section.7}
+\contentsline {subsection}{\numberline {3.11}Conclusion}{22}{subsection.3.11}
+\contentsline {section}{\numberline {4}Expected progress with respect to the state of the art / current literature / current practice of research}{23}{section.4}
+\contentsline {section}{\numberline {5}Research methodology}{24}{section.5}
+\contentsline {section}{\numberline {6}Work plan}{25}{section.6}
+\contentsline {section}{\numberline {7}Ethical issues}{26}{section.7}
